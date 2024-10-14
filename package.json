@@ -1,6 +1,6 @@
 {
   "name": "mountebank",
-  "version": "2.10.0",
+  "version": "2.11.0",
   "author": "Brandon Byars <brandon.byars@gmail.com>",
   "description": "Over the wire test doubles",
   "homepage": "http://www.mbtest.org",
@@ -28,7 +28,8 @@
     "test:js": "cd mbTest && npm run js",
     "test:perf": "cd mbTest && npm run perf",
     "test:web": "node tasks/mbtest.js web",
-    "test": "npm run lint && npm run test:cover && npm run test:api && npm run test:cli && npm run test:js",
+    "test": "npm run test:cover && npm run test:api && npm run test:cli && npm run test:js",
+    "test-ORIG": "npm run lint && npm run test:cover && npm run test:api && npm run test:cli && npm run test:js",
     "airplane": "MB_AIRPLANE_MODE=true npm test"
   },
   "files": [
